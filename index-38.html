@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Scopri e acquista i pass ufficiali di SUD ITALY RP: Game Pass e Pass con vantaggi esclusivi." />
+  <title>Pass e pagamenti | SUD ITALY RP</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080c18;--panel:#11182b;--panel2:#151f36;--text:#f5f7ff;--muted:#aab4cc;--red:#f04452;--gold:#ffc857;--line:rgba(255,255,255,.1)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -10%,rgba(240,68,82,.22),transparent 45%),radial-gradient(ellipse at 100% 100%,rgba(255,200,87,.08),transparent 35%),var(--bg);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);display:flex;flex-direction:column}
+    a{color:inherit}.wrap{width:min(100% - 36px,1000px);margin-inline:auto}.top{padding:26px 0;display:flex;align-items:center;justify-content:center}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.13em;font-size:.95rem}.logo{width:64px;height:64px;object-fit:contain;border-radius:50%;display:block;filter:drop-shadow(0 4px 18px rgba(240,68,82,.22))}.brand{display:flex;align-items:center;gap:14px;font-weight:900;letter-spacing:.13em;font-size:.95rem}
+    main{flex:1;display:grid;place-items:center;padding:22px 0 64px}.hero{text-align:center;max-width:760px;margin:0 auto 28px}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,200,87,.25);background:rgba(255,200,87,.08);color:var(--gold);border-radius:999px;padding:8px 13px;font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.hero h1{font-size:clamp(2.25rem,7vw,4.6rem);line-height:1.02;letter-spacing:-.055em;margin:22px 0 16px}.hero h1 span{background:linear-gradient(90deg,#ff626b,#ffc857);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{color:var(--muted);font-size:clamp(1rem,2.5vw,1.15rem);line-height:1.7;margin:0 auto;max-width:570px}
+    .card{width:100%;max-width:650px;margin:auto;background:linear-gradient(155deg,rgba(255,255,255,.055),rgba(255,255,255,.018)),var(--panel);border:1px solid var(--line);border-radius:26px;padding:clamp(22px,5vw,38px);box-shadow:0 28px 90px rgba(0,0,0,.32);position:relative;overflow:hidden}.card:before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:rgba(240,68,82,.09);filter:blur(45px);top:-130px;right:-70px;pointer-events:none}.product-top{display:flex;gap:18px;align-items:center;position:relative}.pass-icon{flex:0 0 76px;width:76px;height:76px;border-radius:20px;background:linear-gradient(145deg,#f04452,#8d1424);display:grid;place-items:center;font-size:2rem;border:1px solid rgba(255,255,255,.2);box-shadow:0 10px 28px rgba(240,68,82,.2)}.product-top h2{font-size:clamp(1.25rem,4vw,1.7rem);margin:0 0 7px}.product-top p{margin:0;color:var(--muted);line-height:1.5}.price-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:28px 0 22px;padding:18px 20px;background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:16px}.price-label{color:var(--muted);font-size:.88rem}.price{font-size:1.7rem;font-weight:900;letter-spacing:-.04em}.robux{color:var(--gold);font-size:1rem;letter-spacing:0}
+    .buttons{display:grid;gap:12px}.btn{min-height:56px;display:flex;align-items:center;justify-content:center;gap:10px;text-align:center;text-decoration:none;font-weight:850;border-radius:14px;padding:15px 18px;transition:transform .18s ease,filter .18s ease;border:1px solid transparent}.btn:hover{transform:translateY(-2px);filter:brightness(1.07)}.btn-primary{background:linear-gradient(100deg,#f04452,#cf2639);box-shadow:0 10px 25px rgba(240,68,82,.18);color:white}.btn-secondary{background:rgba(255,255,255,.045);border-color:var(--line);color:var(--text)}.notice{margin-top:22px;padding:18px;border-radius:16px;background:rgba(255,200,87,.065);border:1px solid rgba(255,200,87,.18)}.notice h3{margin:0 0 8px;color:var(--gold);font-size:.95rem}.notice p{margin:0;color:var(--muted);font-size:.91rem;line-height:1.65}.notice strong{color:var(--text)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px}.step{padding:16px 13px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.025)}.step b{display:block;font-size:.88rem;margin-bottom:6px}.step span{color:var(--muted);font-size:.8rem;line-height:1.5;display:block}.step-num{color:var(--red);font-size:.75rem;font-weight:900;letter-spacing:.12em;margin-bottom:8px;display:block}.footer{padding:20px 0 28px;text-align:center;color:#77829b;font-size:.8rem}.footer strong{color:#cbd2e5}.disclaimer{font-size:.78rem;color:#7f8aa4;text-align:center;line-height:1.6;margin:18px 0 0}
+    @media(max-width:560px){.wrap{width:min(100% - 24px,1000px)}.top{padding:20px 0}.card{border-radius:21px;padding:20px}.pass-icon{width:62px;height:62px;flex-basis:62px;border-radius:16px;font-size:1.65rem}.product-top{gap:13px}.price-row{padding:15px}.steps{grid-template-columns:1fr;gap:9px}.step{display:flex;align-items:flex-start;gap:12px;padding:13px}.step-num{margin:2px 0 0;min-width:22px}.step b{margin-bottom:4px}.hero{margin-bottom:23px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="top wrap">
+    <div class="brand"><img class="logo" src="logo.png" alt="Logo SUD ITALY RP"><span>SUD ITALY <span style="color:#f04452">RP</span></span></div>
+  </header>
+  <main>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">🎟️ PASS UFFICIALI</div>
+        <h1>I tuoi vantaggi.<br><span>La tua Sud Italy.</span></h1>
+        <p>Scegli il pass più adatto a te, scopri i vantaggi disponibili e completa l'acquisto attraverso i link ufficiali di Roblox.</p>
+      </section>
+      <section class="card" aria-labelledby="pass-title">
+        <div class="product-top">
+          <div class="pass-icon" aria-hidden="true">🎟️</div>
+          <div><h2 id="pass-title">Game Pass • Sud Italy</h2><p>Pass ufficiale del gioco</p></div>
+        </div>
+        <div class="price-row"><div><div class="price-label">Prezzo</div><div class="price">171 <span class="robux">ROBUX</span></div></div><span aria-hidden="true" style="font-size:1.7rem">🛒</span></div>
+        <div class="buttons">
+          <a class="btn btn-primary" href="https://www.roblox.com/game-pass/1998663619/Sud-Italy" target="_blank" rel="noopener noreferrer">🛒 Acquista il Game Pass <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-secondary" href="https://www.roblox.com/it/games/109355460271526/Void-Aren-PvP#!/store" target="_blank" rel="noopener noreferrer">🔄 Apri il Negozio del gioco <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="notice"><h3>⚠️ Il link mostra un errore 404?</h3><p>Prima di tutto, assicurati di aver effettuato l'accesso al tuo account <strong>Roblox</strong>. Se il link diretto continua a non funzionare, usa il pulsante <strong>“Apri il Negozio del gioco”</strong> qui sopra e cerca il Game Pass nel negozio.</p></div>
+        <div class="steps" aria-label="Come acquistare">
+          <div class="step"><span class="step-num">01</span><div><b>Apri Roblox</b><span>Accedi al tuo account Roblox.</span></div></div>
+          <div class="step"><span class="step-num">02</span><div><b>Acquista il pass</b><span>Usa il link diretto o il negozio del gioco.</span></div></div>
+          <div class="step"><span class="step-num">03</span><div><b>Conserva la prova</b><span>Segui le istruzioni dello staff per confermare l'acquisto.</span></div></div>
+        </div>
+        <p class="disclaimer">Il pagamento viene gestito da Roblox. Questo sito non raccoglie dati di pagamento e non richiede password o informazioni bancarie.</p>
+      </section>
+
+      <section class="card" aria-labelledby="sud-pass-title" style="margin-top:26px">
+        <div class="product-top">
+          <div class="pass-icon" aria-hidden="true" style="background:linear-gradient(145deg,#ffc857,#b87916);box-shadow:0 10px 28px rgba(255,200,87,.16)">👑</div>
+          <div><h2 id="sud-pass-title">Pass di Sud Italy</h2><p>Vantaggi esclusivi per la tua esperienza nel server</p></div>
+        </div>
+        <div class="notice" style="margin-top:22px"><h3>🎫 Cosa riceverai con il Pass</h3>
+          <ul style="margin:0;padding-left:22px;color:var(--muted);line-height:1.9">
+            <li>💰 <strong style="color:var(--text)">15K in economia</strong> subito.</li>
+            <li>💵 <strong style="color:var(--text)">25K ogni mese</strong>.</li>
+            <li>🎮 <strong style="color:var(--text)">8K ogni mese in game</strong>.</li>
+            <li>🎵 Richiesta di amicizia su TikTok accettata.</li>
+            <li>👑 <strong style="color:var(--text)">1 mese di VIP gratuito</strong>, senza dover potenziare il server.</li>
+            <li>🏷️ Nametag personalizzato in game.</li>
+            <li>🔓 Possibilità di essere sbannati in caso di ban permanente, <strong style="color:var(--text)">valida una sola volta</strong>.</li>
+          </ul>
+        </div>
+        <p style="color:var(--muted);line-height:1.7;margin:20px 0 0">🔥 Acquista il Pass e ottieni tutti questi vantaggi esclusivi!</p>
+        <div class="notice"><h3>✅ Hai completato l'acquisto?</h3><p>Dopo aver effettuato il pagamento, apri un ticket nella categoria <strong>Altro</strong> e invia una <strong>clip che dimostri l'avvenuto acquisto del Pass</strong>. Lo staff potrà così verificare la tua richiesta.</p></div>
+        <div class="buttons" style="margin-top:16px">
+          <a class="btn btn-primary" href="https://discord.com/channels/1402407968879808656/1404909107802279966" target="_blank" rel="noopener noreferrer">🎫 Apri un ticket su Discord <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="disclaimer">Per la verifica dell'acquisto è necessario inviare una clip chiara come prova. Non condividere password o dati personali.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer"><div class="wrap"><strong>SUD ITALY RP</strong><br>Pagamenti e Pass ufficiali<br><span style="display:block;margin-top:10px">© 2026 Sud Italy RP. Tutti i diritti riservati.</span></div></footer>
+</body>
+</html>
